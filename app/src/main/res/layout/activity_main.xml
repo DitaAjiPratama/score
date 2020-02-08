@@ -22,22 +22,22 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/plusRed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="+" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/scoreRed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="0" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/minusRed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="-" />
         </LinearLayout>
 
         <LinearLayout
@@ -47,22 +47,22 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/plusBlue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="+" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/scoreBlue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="0" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/minusBlue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="-" />
         </LinearLayout>
     </LinearLayout>
 
