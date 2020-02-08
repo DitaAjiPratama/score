@@ -14,30 +14,32 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var score = 0
-        scoreRed.text = score.toString()
+        var red         = 0
+        var blue        = 0
+        scoreRed.text   = red.toString()
+        scoreBlue.text  = blue.toString()
 
         plusRed.setOnClickListener {
-            score++
-            scoreRed.text = score.toString()
+            red++
+            scoreRed.text = red.toString()
             vibratePhone()
         }
-        
+
         minusRed.setOnClickListener {
-            score--
-            scoreRed.text = score.toString()
+            red--
+            scoreRed.text = red.toString()
             vibratePhone()
         }
 
         plusBlue.setOnClickListener {
-            score++
-            scoreBlue.text = score.toString()
+            blue++
+            scoreBlue.text = blue.toString()
             vibratePhone()
         }
 
         minusBlue.setOnClickListener {
-            score--
-            scoreBlue.text = score.toString()
+            blue--
+            scoreBlue.text = blue.toString()
             vibratePhone()
         }
 
