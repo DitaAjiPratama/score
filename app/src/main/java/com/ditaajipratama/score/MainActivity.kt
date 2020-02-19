@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         var red         = 0
         var blue        = 0
+
         scoreRed.text   = red.toString()
         scoreBlue.text  = blue.toString()
 
